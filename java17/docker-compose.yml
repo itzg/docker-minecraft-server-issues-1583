@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mc:
+    build: .
+    environment:
+      TZ: "Europe/Berlin"
+      # ---
+      EULA: "true"
+      TYPE: "PAPER"
+      VERSION: "1.16.5"
+    ports:
+      - 25563:25565
+    volumes:
+      - mc-paper-viaversion:/data/plugins/ViaVersion
+    restart: unless-stopped
+volumes:
+  mc-paper-viaversion: {}
