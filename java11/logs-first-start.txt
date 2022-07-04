@@ -1,0 +1,87 @@
+2022-07-04T00:24:50.709597400Z [init] Running as uid=1000 gid=1000 with /data as 'drwxrwxr-x 2 1000 1000 4096 Jun 27 16:18 /data'
+2022-07-04T00:24:50.719318900Z [init] Resolved version given 1.16.5 into 1.16.5 and major version 1.16
+2022-07-04T00:24:51.631126800Z [init] Resolving type given PAPER
+2022-07-04T00:24:52.448073700Z [init] Removing old PaperMC versions ...
+2022-07-04T00:24:52.450448800Z [init] Downloading PaperMC 1.16.5 (build 794) ...
+2022-07-04T00:24:56.902008300Z [init] Copying plugins over...
+2022-07-04T00:24:57.867910300Z [mc-image-helper] 02:24:57.855 INFO  : Copying /plugins/ViaVersion-4.3.1.jar -> /data/plugins/ViaVersion-4.3.1.jar
+2022-07-04T00:24:58.036314300Z [init] Creating server.properties in /data/server.properties
+2022-07-04T00:24:58.040872000Z [init] Disabling whitelist functionality
+2022-07-04T00:24:58.044364400Z [init] Setting white-list to 'false' in /data/server.properties
+2022-07-04T00:24:58.050311000Z [init] WARNING: whitelist enabled but not enforced. Set ENFORCE_WHITELIST=TRUE or update 'enforce-whitelist' in server.properties to enforce the whitelist.
+2022-07-04T00:24:58.054436400Z [init] Setting enable-rcon to 'true' in /data/server.properties
+2022-07-04T00:24:58.059532900Z [init] Setting rcon.password to 'minecraft' in /data/server.properties
+2022-07-04T00:24:58.065290600Z [init] Setting rcon.port to '25575' in /data/server.properties
+2022-07-04T00:24:58.869808000Z [init] Setting motd to 'A Paper Minecraft Server powered by Docker' in /data/server.properties
+2022-07-04T00:25:01.149283800Z [init] Checking for JSON files.
+2022-07-04T00:25:01.877292400Z [init] Setting initial memory to 1G and max to 1G
+2022-07-04T00:25:01.879731800Z [init] Starting the Minecraft server...
+2022-07-04T00:25:02.031174700Z Downloading vanilla jar...
+2022-07-04T00:25:07.333149200Z Patching vanilla jar...
+2022-07-04T00:25:16.157647500Z System Info: Java 11 (OpenJDK 64-Bit Server VM 11.0.11+9) Host: Linux 5.10.16.3-microsoft-standard-WSL2 (amd64)
+2022-07-04T00:25:16.157705700Z Loading libraries, please wait...
+2022-07-04T00:25:16.636104900Z 2022-07-04 02:25:16,635 main WARN Advanced terminal features are not available in this environment
+2022-07-04T00:25:21.316362600Z [02:25:21 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2022-07-04T00:25:21.439066200Z [02:25:21 INFO]: Found new data pack file/bukkit, loading it automatically
+2022-07-04T00:25:21.838812100Z [02:25:21 INFO]: Reloading ResourceManager: Default, bukkit
+2022-07-04T00:25:23.033113400Z [02:25:23 INFO]: Loaded 7 recipes
+2022-07-04T00:25:24.930284800Z [02:25:24 INFO]: Starting minecraft server version 1.16.5
+2022-07-04T00:25:24.933456600Z [02:25:24 INFO]: Loading properties
+2022-07-04T00:25:25.028245100Z [02:25:25 INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+2022-07-04T00:25:25.073878600Z [02:25:25 INFO]: Server Ping Player Sample Count: 12
+2022-07-04T00:25:25.075660000Z [02:25:25 INFO]: Using 4 threads for Netty based IO
+2022-07-04T00:25:25.076444900Z [02:25:25 INFO]: Debug logging is disabled
+2022-07-04T00:25:25.137161500Z [02:25:25 INFO]: Default game type: SURVIVAL
+2022-07-04T00:25:25.137963300Z [02:25:25 INFO]: Generating keypair
+2022-07-04T00:25:25.389849600Z [02:25:25 INFO]: Starting Minecraft server on *:25565
+2022-07-04T00:25:25.441509900Z [02:25:25 INFO]: Using epoll channel type
+2022-07-04T00:25:26.285958600Z [02:25:26 INFO]: [ViaVersion] Loading ViaVersion v4.3.1
+2022-07-04T00:25:26.308362200Z [02:25:26 INFO]: [ViaVersion] ViaVersion 4.3.1 is now loaded, injecting!
+2022-07-04T00:25:26.590379100Z [02:25:26 INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+2022-07-04T00:25:26.664929400Z [02:25:26 INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+2022-07-04T00:25:26.787389100Z [02:25:26 INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+2022-07-04T00:25:26.906957100Z [02:25:26 INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+2022-07-04T00:25:26.981362000Z [02:25:26 INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+2022-07-04T00:25:26.990556300Z [02:25:26 INFO]: [ViaVersion] Loading block connection mappings ...
+2022-07-04T00:25:27.029891200Z [02:25:27 INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+2022-07-04T00:25:27.144013000Z [02:25:27 INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+2022-07-04T00:25:27.214273000Z [02:25:27 INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+2022-07-04T00:25:27.336150200Z [02:25:27 INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+2022-07-04T00:25:27.351813500Z [02:25:27 INFO]: Preparing level "world"
+2022-07-04T00:25:33.252278200Z [02:25:33 WARN]: Unable to find spawn biome
+2022-07-04T00:25:35.133473900Z [02:25:35 WARN]: Unable to find spawn biome
+2022-07-04T00:25:35.592764200Z [02:25:35 INFO]: Preparing start region for dimension minecraft:overworld
+2022-07-04T00:25:35.984534300Z [02:25:35 INFO]: Preparing spawn area: 0%
+2022-07-04T00:25:36.095007800Z [02:25:36 INFO]: Preparing spawn area: 0%
+2022-07-04T00:25:36.241359000Z [02:25:36 INFO]: Time elapsed: 648 ms
+2022-07-04T00:25:36.242220800Z [02:25:36 INFO]: Preparing start region for dimension minecraft:the_nether
+2022-07-04T00:25:36.620799100Z [02:25:36 INFO]: Preparing spawn area: 0%
+2022-07-04T00:25:36.625496900Z [02:25:36 INFO]: Time elapsed: 383 ms
+2022-07-04T00:25:36.626144100Z [02:25:36 INFO]: Preparing start region for dimension minecraft:the_end
+2022-07-04T00:25:36.873159900Z [02:25:36 INFO]: Preparing spawn area: 0%
+2022-07-04T00:25:37.462554800Z [02:25:37 INFO]: Time elapsed: 836 ms
+2022-07-04T00:25:37.467080100Z [02:25:37 INFO]: [ViaVersion] Enabling ViaVersion v4.3.1
+2022-07-04T00:25:37.608763600Z [02:25:37 INFO]: Starting remote control listener
+2022-07-04T00:25:37.661204800Z [02:25:37 INFO]: Thread RCON Listener started
+2022-07-04T00:25:37.669424400Z [02:25:37 INFO]: RCON running on 0.0.0.0:25575
+2022-07-04T00:25:37.669504600Z [02:25:37 INFO]: Running delayed init tasks
+2022-07-04T00:25:37.690228400Z [02:25:37 INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+2022-07-04T00:25:37.751007200Z [02:25:37 WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 11.0.11). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+2022-07-04T00:25:37.851448200Z [02:25:37 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+2022-07-04T00:25:37.857032700Z [02:25:37 INFO]: Done (12.956s)! For help, type "help"
+2022-07-04T00:25:37.860471100Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+2022-07-04T00:25:37.865001300Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+2022-07-04T00:25:37.866627400Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+2022-07-04T00:25:37.867154100Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+2022-07-04T00:25:37.869641800Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+2022-07-04T00:25:37.870141000Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+2022-07-04T00:25:37.870503100Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+2022-07-04T00:25:37.870881800Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+2022-07-04T00:25:37.879874300Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+2022-07-04T00:25:37.905656100Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+2022-07-04T00:25:37.906397800Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.11
+2022-07-04T00:25:37.906917200Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+2022-07-04T00:25:37.907467600Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information:
+2022-07-04T00:25:37.907997800Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+2022-07-04T00:25:37.922606500Z [02:25:37 WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+2022-07-04T00:25:37.939710100Z [02:25:37 INFO]: Timings Reset
